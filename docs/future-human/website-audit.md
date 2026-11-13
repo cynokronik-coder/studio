@@ -82,11 +82,11 @@ The German subtitle appears below each major room heading: **“Die Welt braucht
 
 | Room | Heading | Visible labels / hotspots in page text | Visual evidence |
 |---|---|---|---|
-| 1 | The Future Is Human. | No separate hotspot label confirmed | Preview shows a dense dark green moss/botanical field, tiny pale flecks and a few brighter flying/light forms |
+| 1 | The Future Is Human. | Program; Change; SPÜRSINN; Beginning | Public image shows moss/vegetation, pale flecks and a bright flying/light form; Room 1 UI frame visibly shows Program, Change and Beginning pills |
 | 2 | The Multidimensional Human | Expression; Five movements; Multidimensional | Preview shows a sandy/stone spiral field, a central pink orb and three labels |
 | 3 | The Collective Field | HIGHER WE; FUTURE HUMAN; Love Intelligence | Preview shows a dark rocky field with multiple warm glowing fish-like forms and three hotspots |
-| 4 | The Path & The Sanctuary | Living field; 8 Modules; The HILLA; Multidimensionality; Between the modules | No dependable room-specific still obtained in this pass |
-| 5 | The Circle & The Encounter | Julia; The Path; Yvonne; Go Deeper; Jennifer | Preview shows an architectural courtyard / circular meeting composition, a central circular platform and people/marker positions; exact live state and animation are not confirmed |
+| 4 | The Path & The Sanctuary | Living field; 8 Modules; The HILLA; Multidimensionality; Between the modules | Public linked image shows an aerial winding path through a tree canopy; mapping is provisional by sequence |
+| 5 | The Circle & The Encounter | Julia; The Path; Yvonne; Go Deeper; Jennifer | Public linked image shows a circular stone platform approached by steps, three rock-like objects, planting and a pink flowering tree; live scene behavior unknown |
 
 Hotspot wording is recorded exactly where possible. The live page extraction duplicates some labels, likely due to multiple DOM or responsive variants; duplication must not be interpreted as two separate controls without inspection.
 

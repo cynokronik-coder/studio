@@ -66,6 +66,9 @@ Record each test as `observed`, `not observed`, `blocked` or `unknown`. Never ma
 
 ## 8. Additional observed Room 1 layout details
 
+Preview image: https://image.mux.com/m3YWLMMz7006f9VD5WTD5xyuIVs02cd39cuVxu00XPf1Fo/thumbnail.webp?time=7.202
+
+
 The public Mux preview frame shows:
 - Floating Program, Change and Beginning pills over the scene, each with a small outlined circle on the left.
 - Bottom-center FUTURE / five markers / HUMAN navigation.

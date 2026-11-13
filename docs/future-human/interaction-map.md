@@ -1,27 +1,27 @@
 # FUTURE HUMAN — interaction map
 
-**Status:** Visible labels recorded from public page text and preview frames. The action/result for every control remains unverified.
+**Status:** Public page labels and the Room 1 Mux interface-preview still inspected. No live click, hover, keyboard or touch action was executed; all action results remain unverified.
 
 ## Page / entry layer
 
 | Element | Visible evidence | Action/result status |
 |---|---|---|
 | “Enter” | Public page text near “Step into the field / Move forward. Discover what unfolds.” | Not clicked; destination and transition unknown |
-| “Program” | Public page text | Role and action unknown |
-| “Change” | Public page text | Role and action unknown |
+| “Program” | Public page text and visible floating pill in Room 1 Mux preview | Position/appearance visible; role/action unknown |
+| “Change” | Public page text and visible floating pill in Room 1 Mux preview | Position/appearance visible; role/action unknown |
 | “SPÜRSINN” | Public page text | Role and action unknown |
-| “Beginning” | Public page text | Role and action unknown |
+| “Beginning” | Public page text and visible floating pill in Room 1 Mux preview | Position/appearance visible; role/action unknown |
 
 ## Persistent room interface
 
 | Element | Visible evidence | Action/result status |
 |---|---|---|
-| Five circular journey markers | Visible along bottom between FUTURE and HUMAN | Exact room mapping, keyboard behavior and transition unknown |
+| Five circular journey markers | Visible bottom-center between FUTURE and HUMAN in Room 1 Mux preview | Exact room mapping, keyboard behavior and transition unknown |
 | “Click to explore” | Small instruction near journey navigation | Instruction only; not treated as a button |
-| Lower-left chevron | Small circular/chevron control | Direction, label and outcome unknown |
-| Lower-right document/booklet icon | Visible in preview | Label and destination unknown |
-| Lower-right envelope icon | Visible in preview | Label and destination unknown |
-| “INTERACTION” top-right label | Visible in room preview | Static label vs interaction mode unknown |
+| Lower-left chevron | Small circular up-chevron-like control visible in Room 1 Mux preview | Direction, label and outcome unknown |
+| Lower-right document/booklet-like glyph | Small outline icon visible bottom-right in Room 1 Mux preview | Label and destination unknown |
+| Lower-right envelope-like glyph | Small outline icon visible bottom-right in Room 1 Mux preview | Label and destination unknown |
+| “INTERACTION” top-right label | Not present in the Room 1 Mux frame inspected | May exist in another state; unknown |
 
 ## Room-specific hotspot labels
 
@@ -62,3 +62,15 @@ Test the following at 1440×900, 1280×800 and 390×844:
 12. Check console errors and failed requests after each action.
 
 Record each test as `observed`, `not observed`, `blocked` or `unknown`. Never mark a control complete solely because it is clickable.
+
+
+## 8. Additional observed Room 1 layout details
+
+The public Mux preview frame shows:
+- Floating Program, Change and Beginning pills over the scene, each with a small outlined circle on the left.
+- Bottom-center FUTURE / five markers / HUMAN navigation.
+- “Click to explore” below the markers.
+- Lower-left round chevron/up-arrow-like control.
+- Lower-right booklet/document-like and envelope-like icons.
+
+These are visual observations only. None of the buttons or labels were activated, so all resulting behavior remains unknown. The five room markers being visible does not prove that each marker selects the corresponding titled room directly.

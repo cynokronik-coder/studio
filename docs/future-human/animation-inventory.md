@@ -1,6 +1,6 @@
 # FUTURE HUMAN — animation inventory
 
-**Status:** Motion categories identified; timing and transition behavior not yet measured.
+**Status:** Five room scene-reference images and one Room 1 UI-preview still inspected. Creator description confirms custom 3D animation, but no live animation sequence or timing has been measured.
 
 The official Framer Gallery describes the project as featuring custom high-quality 3D animations and tactile textures. That confirms an animation-rich design intent, but not the runtime rendering technology or exact animation behavior.
 
@@ -11,7 +11,7 @@ The official Framer Gallery describes the project as featuring custom high-quali
 | Room 1 | Small bright flying/light elements over the moss field | Whether they move; paths, speed, particle count, interaction, camera response and loop duration |
 | Room 2 | Central spherical/pink object over a spiral field | Whether it rotates, pulses, floats, reacts to pointer or opens content |
 | Room 3 | Several glowing fish-like forms suspended in a dark rock field | Whether they swim, move in depth, respond to pointer or hotspots, and whether lighting is dynamic |
-| Room 4 | No reliable room-specific animation frame captured | All scene movement and interaction |
+| Room 4 | Aerial winding path through tree canopy in a public linked image | No motion evidence; all animation and interaction unknown |
 | Room 5 | Architectural courtyard and circular encounter layout in a transitions preview | Whether the camera travels, the circular platform animates, figures move, or a transition sequence is shown |
 
 A still preview is not evidence of an animation curve. Do not invent duration, easing, camera movement or particle behavior.
@@ -72,3 +72,19 @@ Do not add Three.js, GSAP or another animation dependency just because it is fas
 - Respect `prefers-reduced-motion`.
 - Provide a readable fallback if WebGL/video playback is unavailable.
 - Ensure hotspots are keyboard operable with visible focus and accessible names.
+
+
+## 7. Additional visual evidence
+
+The live page exposes five environmental image references:
+- Room 1: moss/vegetation with a bright flying/light form.
+- Room 2: sandy spiral and central pink sphere.
+- Room 3: dark rocky field with several glowing fish-like forms.
+- Room 4: aerial path through tree canopy.
+- Room 5: circular platform and steps in a landscaped environment.
+
+The official Framer Gallery claims custom high-quality 3D animations. The images themselves are stills and do not prove movement. The Room 1 Mux thumbnail also shows interface composition but is not a time series.
+
+## 8. Instrumentation blocker
+
+No REA, Chrome DevTools MCP or Playwright MCP tools are callable from this ChatGPT session. Therefore idle loops, pointer response, transition durations, easing, camera motion and performance have not been measured. The next run must start in a session with all three tools connected and an inspectable Chrome target.

@@ -62,7 +62,7 @@ These are descriptive visual observations, not sampled design tokens:
 
 - Rooms 1 and 3 include multiple small bright elements that are visually separated from the textured background.
 - The Room 2 composition centers a spherical/pink object over a spiral texture.
-- Room 5's encounter preview uses a central circular arrangement with people/markers and architectural context.
+- The Room 5 linked image shows a pale circular platform approached by steps, three rock objects and surrounding planting; the precise live animation remains unknown.
 - These stills do not establish whether objects move in real time, are video loops, or are pre-rendered sequences.
 
 ## Responsive behavior

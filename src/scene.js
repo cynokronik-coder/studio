@@ -68,7 +68,7 @@ const fragmentShader = `
     float seed = hash(id);
     vec2 center = vec2(hash(id + 2.7), hash(id + 8.1)) - 0.5;
     float petalShape = length((f - center * 0.65) * vec2(1.0, 1.7));
-    float flower = smoothstep(0.055, 0.008, petalShape) * step(0.88, seed);
+    float flower = (1.0 - smoothstep(0.008, 0.055, petalShape)) * step(0.88, seed);
     vec3 pale = vec3(0.72, 0.72, 0.55);
     color += pale * flower * 0.5;
 
@@ -80,7 +80,7 @@ const fragmentShader = `
     float glow = exp(-flyDist * 210.0) * step(0.965, flySeed);
     color += vec3(0.88, 0.92, 0.55) * glow * (0.5 + 0.5 * sin(t * 1.8 + flySeed * 8.0));
 
-    float vignette = smoothstep(0.92, 0.22, length((uv - 0.5) * vec2(1.12, 0.9)));
+    float vignette = (1.0 - smoothstep(0.22, 0.92, length((uv - 0.5) * vec2(1.12, 0.9))));
     return color * mix(0.55, 1.0, vignette);
   }
 
@@ -115,7 +115,7 @@ const fragmentShader = `
       color += vec3(1.0, 0.79, 0.43) * light * (0.42 + 0.25 * sin(phase * 1.7));
     }
 
-    float vignette = smoothstep(0.95, 0.18, length((uv - 0.5) * vec2(1.15, 0.92)));
+    float vignette = (1.0 - smoothstep(0.18, 0.95, length((uv - 0.5) * vec2(1.15, 0.92))));
     return color * mix(0.45, 1.0, vignette);
   }
 

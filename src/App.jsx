@@ -111,9 +111,9 @@ function App() {
 
         <button
           className="edge-control edge-control-left"
-          onClick={() => chooseRoom(rooms.find((room) => room.id === (activeRoomId === 3 ? 1 : 1)))}
-          aria-label="Return to Room 1"
-          title="Return to Room 1"
+          onClick={() => chooseRoom(rooms.find((room) => room.id === (activeRoomId === 1 ? 3 : 1)))}
+          aria-label={activeRoomId === 1 ? "Go to Room 3" : "Return to Room 1"}
+          title={activeRoomId === 1 ? "Go to Room 3" : "Return to Room 1"}
         >
           <Arrow direction="up" />
         </button>

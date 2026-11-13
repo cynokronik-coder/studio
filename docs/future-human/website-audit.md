@@ -3,7 +3,7 @@
 **Date:** 2026-11-13  
 **Phase:** 1 — public-page reconnaissance (partial)  
 **Reference:** https://www.future-human.de/  
-**Status:** Public page text and official preview material reviewed. Live browser/DOM/network/interaction capture is still pending.
+**Status:** Public live-page text, five linked image references and one Room 1 Mux interface-preview frame inspected. Live DOM/network/interaction/viewport instrumentation remains blocked because REA, Chrome DevTools MCP and Playwright MCP are not callable in this ChatGPT session.
 
 ## 1. Executive findings
 
@@ -28,7 +28,7 @@ A five-position journey navigator is visible in the desktop preview frames. This
 | Live public page text at https://www.future-human.de/ | Page title, German tagline, five named room headings, listed labels and entry CTA text | Exact DOM structure, all routes, interaction outcomes, visual timing or responsive measurements |
 | Official Framer Gallery listing: https://www.framer.com/community/gallery/future-human/ | Interconnected-space concept, Framer attribution, custom 3D animation/tactile texture description, Room 1 and Room 3 preview footage | Exact browser runtime, source code, complete asset inventory or all interaction states |
 | Second Framer Gallery entry: https://www.framer.com/community/gallery/futurehuman/ | Independent project description of the multidimensional journey and additional preview material | Full live-site behavior |
-| Creator project page: https://contra.com/p/QBLNPeQc-future-human-website-development | Project description and production-credit/tag context (Framer, Blender, Octane Render) | Whether Blender/Octane are runtime dependencies or only production tools |
+| Creator project page: https://contra.com/p/QBLNPeQc-future-human-website-development | Not retrievable in this audit session | No facts from this page are used in the current findings |
 | Awesome-REA catalogue: https://github.com/reacher-z/Awesome-REA | Candidate investigation tools, workflows, case studies and limits | Automatic ability to clone the site |
 
 The screenshots below are **external preview references** from the Framer Gallery's Mux-hosted preview media. They are not confirmed source-site assets and must not be copied into the running experience as substitutes for the original scenes.
@@ -51,7 +51,7 @@ The screenshots below are **external preview references** from the Framer Galler
 
 ![Encounter / transitions preview](https://image.mux.com/Uy00unzOctufG3c6ZCQpwZpzbm7xFjrhIWMfnuV8rkwc/thumbnail.webp?time=29.875)
 
-No reliable Room 4 still was obtained in this pass. Its text and hotspot labels are known from the live page text, but its environment remains visually unverified.
+Update: the live page exposed a fifth linked Framer image. Its content is an aerial view of a winding path through tree canopy, provisionally mapped to Room 4 by its position in the five-image sequence. This mapping is strongly suggested but still needs DOM association confirmation.
 
 ## 3. Page architecture observed from public content
 
@@ -118,11 +118,11 @@ The following tasks have **not** been completed by this reconnaissance:
 - Inspect network resources for model files, textures, fonts, videos, shaders, WASM or cross-origin APIs.
 - Run performance traces and inspect console errors.
 
-**Tool connection limitation:** this ChatGPT session can read public GitHub sources and public page text, but it does not currently have the project's REA, Chrome DevTools MCP or Playwright MCP browser tools connected. The workspace-level `.mcp.json` has been added for the coding-agent environment. Once Copilot starts those servers, complete the above capture before Phase 3. Do not describe this partial audit as a completed live reverse-engineering pass.
+**Tool connection limitation:** this ChatGPT session can read public GitHub sources and public page content, but has no callable REA, Chrome DevTools MCP or Playwright MCP browser tools. The repository's `.mcp.json` configures a compatible workspace agent; it does not connect the servers to this ChatGPT session automatically. No live DOM, interaction, network or performance capture has been performed. Do not describe this partial audit as a completed live reverse-engineering pass.
 
 ## 7. Selected Awesome-REA investigation resources
 
-Awesome-REA is a catalogue of 5,191 resources overall, with 128 entries filed under Website. Not every item in the catalogue applies to a Framer experience. Use the relevant website-analysis, browser-automation, source-inspection and visual-comparison resources; do not install unrelated game, firmware or native-binary tools without evidence that the target requires them.
+Inventory note: the current `data/rea-resources.json` fetched from Awesome-REA contains 185 curated resource records, 24 with `website` among their target tags. The generated case index lists 76 Website case studies. These are different inventories; do not combine them into a single count. Use the relevant website-analysis, browser-automation, source-inspection and visual-comparison resources; do not install unrelated game, firmware or native-binary tools without evidence that the target requires them.
 
 | Resource | Role in this project | Important limitation / selection rule |
 |---|---|---|
@@ -153,3 +153,19 @@ Phase 1 is complete only after the live browser session has been captured and th
 6. An explicit unknowns list.
 
 Do not expand the provisional application prototype until this gate is met or the remaining limitations are explicitly accepted by the user.
+
+
+## 12. Additional public image references and Room 1 UI frame
+
+The public page exposes the following five Framer image CDN resources in page order. Their visual content strongly suggests one scene reference for each room; exact DOM element association and whether they are runtime scene assets remain unverified.
+
+1. Room 1, moss/vegetation and bright flying/light form: https://framerusercontent.com/images/byN5JITGDpJS5uPjBYZNgrdYBc.webp?height=800&width=1262
+2. Room 2, sandy spiral and pink sphere: https://framerusercontent.com/images/vDbSa7PEB8DwTVdVLCO5S03G0E.webp?height=800&width=1262
+3. Room 3, dark rock field and glowing fish-like forms: https://framerusercontent.com/images/RS69Ed1spgNQZP5bDKSkypnMeQA.webp?height=800&width=1262
+4. Room 4, winding path through tree canopy: https://framerusercontent.com/images/nXXbEcLSHkFkWv8SoaEMsCWE2T0.webp?height=800&width=1262
+5. Room 5, circular platform reached by steps, vegetation and pink blossom tree: https://framerusercontent.com/images/bPlZYth7cs3PE7DXCGxqj6ZcC8.webp?height=800&width=1262
+
+The Framer Gallery's linked Room 1 Mux thumbnail at time=7.202 is a separate full-UI preview:
+https://image.mux.com/m3YWLMMz7006f9VD5WTD5xyuIVs02cd39cuVxu00XPf1Fo/thumbnail.webp?time=7.202
+
+That frame shows a full-bleed moss scene, title and German tagline near the top, floating Program / Change / Beginning labels, FUTURE / five markers / HUMAN at the bottom, Click to explore, a lower-left chevron-like control and two lower-right utility icons. It is a still preview only; no control behavior or animation timing is proved by it.

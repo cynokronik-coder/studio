@@ -1,17 +1,17 @@
 # FUTURE HUMAN — visual system inventory
 
-**Status:** Reference-preview observations captured; computed styles and mobile measurements pending.
+**Status:** Five public scene-image references and one Room 1 full-interface preview frame captured from public page/gallery resources. Live computed styles and mobile measurements pending.
 
 ## Composition visible in desktop previews
 
-The Framer preview frames are 1000×750 pixels. In these images, the inner experience frame occupies approximately 75% of the width and two-thirds of the height. This is a rough ratio measured from preview images only, not a verified live CSS breakpoint or target measurement.
+The Room 1 Mux interface preview is a wide landscape frame (displayed at approximately 1000 pixels wide). It shows the scene filling the visible canvas. Exact native screenshot dimensions and live viewport dimensions have not been measured.
 
 - The environmental background fills the full viewport.
-- A second, inset rectangular experience area is centered over the background.
-- The inset has a subtle edge/contrast boundary rather than a strong card treatment.
-- The room heading and German subtitle sit near the top-center of the inset.
-- Small context labels sit outside the inset at the top-left and top-right.
-- The five-position journey navigation sits along the bottom of the inset.
+- The moss environment fills the visible frame; no inset border/panel is apparent in this single screenshot.
+- The room heading and German tagline are centered near the top.
+- Program, Change and Beginning appear as small floating pill-like labels over the scene.
+- The five-position journey navigation sits bottom-center with FUTURE and HUMAN flanking it.
+- “Click to explore” appears below the markers; a chevron-like control is bottom-left and two utility glyphs are bottom-right.
 - Secondary utility controls sit near the lower corners.
 
 ## Typography
@@ -34,8 +34,11 @@ Do not select a substitute font by guess. Inspect loaded font resources and comp
 
 | Element | Preview observation | Pending verification |
 |---|---|---|
-| Top-left context | “ROOM 1”, “ROOM 2”, “ROOM 3” etc. | Exact label format and responsive visibility |
-| Top-right context | “INTERACTION” | Whether it is a clickable mode selector or static label |
+| Floating scene labels | “Program”, “Change”, “Beginning” | Position and appearance visible in Room 1 preview; click behavior unknown |
+| Journey navigation | “FUTURE”, five circular markers, “HUMAN” | Active-state behavior, exact room mapping and transitions unknown |
+| Instruction | “Click to explore” | Whether static instruction or actionable text unknown |
+| Lower-left control | Circular up-chevron-like glyph | Label and action unknown |
+| Lower-right controls | Booklet/document-like and envelope-like glyphs | Labels, destinations and actions unknown |
 | Main title | Centered, serif editorial title | Exact sizes, font metrics and animation |
 | Subtitle | German tagline below title | Exact font and responsive behavior |
 | Journey bar | FUTURE / five circular markers / HUMAN | Marker semantics, active state, transition animation |
@@ -88,3 +91,20 @@ At each size, record:
 5. Keep room-specific material palettes separate from global interface tokens.
 
 No exact hex values, font names or animation durations are asserted in this file until captured from the live site.
+
+
+## 9. Five environmental image references newly inspected
+
+The live page exposes five linked Framer CDN images, in the order of the five room headings. The one-to-one room mapping is provisional pending DOM association:
+
+- Room 1: moss/grass-like ground, small pale flower flecks, one bright yellow-white flying/light form.
+- Room 2: warm beige sand/stone spiral/depression with a central pink/coral sphere.
+- Room 3: dark charcoal/umber rock/cavern with glowing amber fish-like forms.
+- Room 4: aerial view of a dark path through ochre/green tree canopy.
+- Room 5: pale circular stone platform approached by steps, rock objects, dark-green planting and pink blossom tree.
+
+The individual image URLs are recorded in `website-audit.md` and `asset-inventory.md`.
+
+## 10. Corrected frame interpretation
+
+The Room 1 Mux preview shows the environment as a full-bleed canvas with interface labels directly overlaid. The previous prototype's inset rectangular panel and outside ROOM/INTERACTION header assumption are not supported by this inspected frame. Treat those elements as unverified or remove them when the implementation phase begins unless another live state proves they exist.

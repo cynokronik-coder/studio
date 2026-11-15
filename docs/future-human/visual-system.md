@@ -1,18 +1,27 @@
 # FUTURE HUMAN — visual system inventory
 
-**Status:** Five public scene-image references and one Room 1 full-interface preview frame captured from public page/gallery resources. Live computed styles and mobile measurements pending.
+**Status:** Five public scene-image references and four full-interface preview frames (Rooms 1, 2, 3 and Room 5 transitions) inspected. Live computed styles and mobile measurements pending.
 
 ## Composition visible in desktop previews
 
-The Room 1 Mux interface preview is a wide landscape frame (displayed at approximately 1000 pixels wide). It shows the scene filling the visible canvas. Exact native screenshot dimensions and live viewport dimensions have not been measured.
+The public Framer Gallery Mux preview stills are 1000×750 pixels. Room 1, Room 2 and Room 3 show a shared desktop composition:
 
-- The environmental background fills the full viewport.
-- The moss environment fills the visible frame; no inset border/panel is apparent in this single screenshot.
-- The room heading and German tagline are centered near the top.
-- Program, Change and Beginning appear as small floating pill-like labels over the scene.
-- The five-position journey navigation sits bottom-center with FUTURE and HUMAN flanking it.
-- “Click to explore” appears below the markers; a chevron-like control is bottom-left and two utility glyphs are bottom-right.
-- Secondary utility controls sit near the lower corners.
+- The environmental background fills the outer 1000×750 frame.
+- An inset scene panel sits centrally, approximately 750×500 pixels (about 75% of frame width and two-thirds of frame height).
+- The outer environment remains visible around all four sides of the inset panel.
+- Small room identifier appears at the top-left of the outer frame; “INTERACTION” appears at the top-right.
+- Room title and German tagline are centered near the top of the inset panel.
+- The journey navigation sits bottom-center inside the inset: FUTURE, five circular markers and HUMAN.
+- “Click to explore” sits immediately below the marker row.
+- A small circular chevron control sits lower-left inside the panel; two outline utility icons sit lower-right (booklet/document-like and envelope-like).
+- The inset surface is translucent enough for the scene texture to remain visible below it.
+
+Room-specific hotspot positions are visible in some sampled frames:
+- Room 2: Expression at right of the pink orb, Five movements below/left of the orb, Multidimensional toward the lower-left.
+- Room 3: HIGHER WE toward upper-left, FUTURE HUMAN at mid-right, Love Intelligence below-center.
+- Room 5 transitions preview: The Path on the approach/steps, Julia and Yvonne around the circular platform, Jennifer near the lower platform edge, and Go Deeper to the right.
+
+The available Room 1 sample at 4.875 seconds does not show Program, Change, SPÜRSINN or Beginning as floating hotspots, although those labels occur in the live page's extracted text. Their visible state/placement remains unknown.
 
 ## Typography
 
@@ -34,8 +43,11 @@ Do not select a substitute font by guess. Inspect loaded font resources and comp
 
 | Element | Preview observation | Pending verification |
 |---|---|---|
-| Floating scene labels | “Program”, “Change”, “Beginning” | Position and appearance visible in Room 1 preview; click behavior unknown |
-| Journey navigation | “FUTURE”, five circular markers, “HUMAN” | Active-state behavior, exact room mapping and transitions unknown |
+| Room 2 hotspots | Expression; Five movements; Multidimensional | Positions visible in sampled preview; click behavior unknown |
+| Room 3 hotspots | HIGHER WE; FUTURE HUMAN; Love Intelligence | Positions visible in sampled preview; click behavior unknown |
+| Room 5 hotspots | Julia; The Path; Yvonne; Go Deeper; Jennifer | Positions visible in transitions preview; click behavior unknown |
+| Room 1 labels | Program; Change; SPÜRSINN; Beginning | Page text only; not visible in the sampled Room 1 frame; placement/action unknown |
+| Journey navigation | FUTURE, five circular markers, HUMAN | Active-state behavior, exact room mapping and transitions unknown |
 | Instruction | “Click to explore” | Whether static instruction or actionable text unknown |
 | Lower-left control | Circular up-chevron-like glyph | Label and action unknown |
 | Lower-right controls | Booklet/document-like and envelope-like glyphs | Labels, destinations and actions unknown |
@@ -55,7 +67,7 @@ These are descriptive visual observations, not sampled design tokens:
 | 1 | Deep olive and moss greens, botanical/grassy texture, small pale flower-like flecks and brighter insect/light accents |
 | 2 | Warm sand/beige field, dark spiral/shadow forms, central pink/coral orb |
 | 3 | Charcoal and dark umber rock-like background, warm gold/cream luminous fish-like forms |
-| 4 | Not enough reliable visual evidence to describe |
+| 4 | Winding path viewed from above, flanked by dense green and ochre tree canopy and earthy ground |
 | 5 | Pale warm stone architecture, courtyard/threshold composition, a circular meeting platform, deep green landscape and pink flowering tree in the transition preview |
 
 ## Motion / depth clues visible in still frames
@@ -107,4 +119,4 @@ The individual image URLs are recorded in `website-audit.md` and `asset-inventor
 
 ## 10. Corrected frame interpretation
 
-The Room 1 Mux preview shows the environment as a full-bleed canvas with interface labels directly overlaid. The previous prototype's inset rectangular panel and outside ROOM/INTERACTION header assumption are not supported by this inspected frame. Treat those elements as unverified or remove them when the implementation phase begins unless another live state proves they exist.
+The Room 1, Room 2 and Room 3 Mux preview stills clearly show the inset scene panel plus outer ROOM / INTERACTION metadata. The previous provisional claim that the panel was absent was incorrect and is superseded by the full-interface preview frames listed in website-audit.md.

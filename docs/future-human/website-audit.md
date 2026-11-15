@@ -90,20 +90,29 @@ The German subtitle appears below each major room heading: **“Die Welt braucht
 
 Hotspot wording is recorded exactly where possible. The live page extraction duplicates some labels, likely due to multiple DOM or responsive variants; duplication must not be interpreted as two separate controls without inspection.
 
-## 5. Persistent interface visible in desktop preview frames
+## 5. Shared desktop interface visible in Mux preview frames
 
-The previews consistently show:
+Mux-hosted Framer Gallery preview frames are available for Rooms 1, 2 and 3, plus a transitions/encounter preview showing Room 5. These are screenshots sampled from creator-supplied preview media, not fresh captures from a live browser session.
 
-- A small room identifier in the upper-left corner (for example, “ROOM 1”, “ROOM 2”, “ROOM 3”).
-- “INTERACTION” in the upper-right corner.
-- A large inset/framed content area over the environmental background.
-- A centered editorial heading and the German subtitle near the top of the inset area.
-- A bottom journey bar with “FUTURE”, five circular markers and “HUMAN”.
-- A small “Click to explore” instruction near the journey bar.
-- A small chevron-like control near the lower-left corner.
-- Two small utility controls at the lower-right; their glyphs resemble a document/booklet and an envelope in the preview, but their destinations and semantics are unverified.
+Across the Room 1, Room 2 and Room 3 frames, the same composition is visible:
 
-Treat icon names and actions as unknown until inspected in the live site.
+- The environmental scene fills the full outer viewport.
+- A large inset rectangular scene panel occupies roughly 75% of the frame width and around two-thirds of its height, centered over the outer scene.
+- Small room metadata appears at the top-left (for example, “ROOM 1”, “ROOM 2”, “ROOM 3”).
+- “INTERACTION” appears at the top-right.
+- The room title and German supporting line are centered near the top of the inset panel.
+- The bottom-center journey control reads “FUTURE”, has five small circular markers, and ends with “HUMAN”.
+- “Click to explore” appears immediately below the marker row.
+- A small circular chevron control appears at the lower-left of the inset panel. Its direction differs in the available stills (up-like in Room 1/2, down-like in Room 3); its actual purpose is unknown.
+- Two small outline utility icons appear at the lower-right of the inset panel. One resembles a booklet/document and one resembles an envelope; semantics and destinations remain unknown.
+
+Room-specific labels differ:
+- Room 1 preview frame: no room-specific floating labels are visible at the sampled timestamp. The public page text contains Program, Change, SPÜRSINN and Beginning twice, but their exact visual state is not established by this frame.
+- Room 2 frame: Expression, Five movements and Multidimensional appear as small floating pill-like hotspots at different positions around the central orb.
+- Room 3 frame: HIGHER WE, FUTURE HUMAN and Love Intelligence appear as small floating pill-like hotspots.
+- Room 5 transition frame: The Path, Julia, Yvonne, Jennifer and Go Deeper are visible around the circular platform scene.
+
+These preview frames correct two earlier notes: the main experience does have a clearly visible inset scene panel in the Room 1/2/3 desktop previews, and the top ROOM / INTERACTION labels are visible. Do not treat these stills as proof of the controls' actions, focus states or animation timing.
 
 ## 6. Browser investigation still required
 
@@ -165,7 +174,13 @@ The public page exposes the following five Framer image CDN resources in page or
 4. Room 4, winding path through tree canopy: https://framerusercontent.com/images/nXXbEcLSHkFkWv8SoaEMsCWE2T0.webp?height=800&width=1262
 5. Room 5, circular platform reached by steps, vegetation and pink blossom tree: https://framerusercontent.com/images/bPlZYth7cs3PE7DXCGxqj6ZcC8.webp?height=800&width=1262
 
-The Framer Gallery's linked Room 1 Mux thumbnail at time=7.202 is a separate full-UI preview:
-https://image.mux.com/m3YWLMMz7006f9VD5WTD5xyuIVs02cd39cuVxu00XPf1Fo/thumbnail.webp?time=7.202
+The following Mux preview stills expose the full interface at the sampled moments:
 
-That frame shows a full-bleed moss scene, title and German tagline near the top, floating Program / Change / Beginning labels, FUTURE / five markers / HUMAN at the bottom, Click to explore, a lower-left chevron-like control and two lower-right utility icons. It is a still preview only; no control behavior or animation timing is proved by it.
+- Room 1 at 4.875 seconds: https://image.mux.com/8KSTLeLnO02IssjCHWC016XtRix2502snXLVRj01YS00mqJw/thumbnail.webp?time=4.875
+- Room 2 at 9.875 seconds: https://image.mux.com/wEsjbPtkWzFYsEHKTaEMZMY3pp4KDe1neH2rua7H138/thumbnail.webp?time=9.875
+- Room 3 at 7.083 seconds: https://image.mux.com/nLNX4gM6LQCO025X1vpwH3EPUPppjawZ3ZYXirxFTqow/thumbnail.webp?time=7.083
+- Room 5 / transitions preview at 29.875 seconds: https://image.mux.com/Uy00unzOctufG3c6ZCQpwZpzbm7xFjrhIWMfnuV8rkwc/thumbnail.webp?time=29.875
+
+The Room 1 sample shows the environmental scene behind the inset panel, with ROOM 1 / INTERACTION labels, centered title/subtitle, journey navigation, Click to explore, lower-left chevron and lower-right booklet/envelope icons. Room 2 adds the three Expression / Five movements / Multidimensional hotspots around the pink sphere. Room 3 adds HIGHER WE / FUTURE HUMAN / Love Intelligence around the glowing forms. The Room 5 transitions frame shows the outer architectural environment and an inset circular-platform scene with The Path / Julia / Yvonne / Jennifer / Go Deeper labels.
+
+All are stills from the public Framer Gallery preview media. They are not live browser captures and do not prove the controls' behavior or the scenes' runtime rendering technology.

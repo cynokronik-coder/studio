@@ -1,6 +1,6 @@
 # FUTURE HUMAN — visual system inventory
 
-**Status:** Five public scene-image references and one Room 1 full-interface preview frame captured from public page/gallery resources. Live computed styles and mobile measurements pending.
+**Status:** Five public scene-image references and four full-interface preview frames (Rooms 1, 2, 3 and Room 5 transitions) inspected. Live computed styles and mobile measurements pending.
 
 ## Composition visible in desktop previews
 

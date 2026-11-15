@@ -3,7 +3,7 @@
 **Date:** 2026-11-13  
 **Phase:** 1 — public-page reconnaissance (partial)  
 **Reference:** https://www.future-human.de/  
-**Status:** Public live-page text, five linked image references and one Room 1 Mux interface-preview frame inspected. Live DOM/network/interaction/viewport instrumentation remains blocked because REA, Chrome DevTools MCP and Playwright MCP are not callable in this ChatGPT session.
+**Status:** Public live-page text, five linked image references and four creator-supplied Mux full-interface preview frames (Rooms 1, 2, 3 and Room 5 transitions) inspected. Live DOM/network/interaction/viewport instrumentation remains blocked because REA, Chrome DevTools MCP and Playwright MCP are not callable in this ChatGPT session.
 
 ## 1. Executive findings
 
@@ -82,7 +82,7 @@ The German subtitle appears below each major room heading: **“Die Welt braucht
 
 | Room | Heading | Visible labels / hotspots in page text | Visual evidence |
 |---|---|---|---|
-| 1 | The Future Is Human. | Program; Change; SPÜRSINN; Beginning | Public image shows moss/vegetation, pale flecks and a bright flying/light form; Room 1 UI frame visibly shows Program, Change and Beginning pills |
+| 1 | The Future Is Human. | Program; Change; SPÜRSINN; Beginning | Public image shows moss/vegetation, pale flecks and a bright flying/light form; the sampled full-interface Room 1 frame shows no named hotspots |
 | 2 | The Multidimensional Human | Expression; Five movements; Multidimensional | Preview shows a sandy/stone spiral field, a central pink orb and three labels |
 | 3 | The Collective Field | HIGHER WE; FUTURE HUMAN; Love Intelligence | Preview shows a dark rocky field with multiple warm glowing fish-like forms and three hotspots |
 | 4 | The Path & The Sanctuary | Living field; 8 Modules; The HILLA; Multidimensionality; Between the modules | Public linked image shows an aerial winding path through a tree canopy; mapping is provisional by sequence |
@@ -164,7 +164,7 @@ Phase 1 is complete only after the live browser session has been captured and th
 Do not expand the provisional application prototype until this gate is met or the remaining limitations are explicitly accepted by the user.
 
 
-## 12. Additional public image references and Room 1 UI frame
+## 12. Additional public image and full-interface preview references
 
 The public page exposes the following five Framer image CDN resources in page order. Their visual content strongly suggests one scene reference for each room; exact DOM element association and whether they are runtime scene assets remain unverified.
 

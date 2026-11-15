@@ -1,6 +1,6 @@
 # FUTURE HUMAN — interaction map
 
-**Status:** Public page labels and the Room 1 Mux interface-preview still inspected. No live click, hover, keyboard or touch action was executed; all action results remain unverified.
+**Status:** Public page labels and four full-interface preview stills (Rooms 1, 2, 3 and Room 5 transitions) inspected. No live click, hover, keyboard or touch action was executed; all action results remain unverified.
 
 ## Page / entry layer
 

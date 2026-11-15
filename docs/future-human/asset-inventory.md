@@ -1,6 +1,6 @@
 # FUTURE HUMAN — asset and technology inventory
 
-**Status:** Five Framer CDN image references, one Mux Room 1 UI-preview thumbnail and the official Framer project description inspected. Live network/resource inventory pending.
+**Status:** Five Framer CDN image references, four Mux full-interface preview stills and the official Framer project description inspected. Live network/resource inventory pending.
 
 ## Confirmed project-level information
 
@@ -77,8 +77,7 @@ The live page links five Framer CDN WebP image variants. They are likely scene r
 - Room 4: https://framerusercontent.com/images/nXXbEcLSHkFkWv8SoaEMsCWE2T0.webp?height=800&width=1262
 - Room 5: https://framerusercontent.com/images/bPlZYth7cs3PE7DXCGxqj6ZcC8.webp?height=800&width=1262
 
-A separate Framer Gallery Mux thumbnail shows a Room 1 full-interface preview:
-https://image.mux.com/m3YWLMMz7006f9VD5WTD5xyuIVs02cd39cuVxu00XPf1Fo/thumbnail.webp?time=7.202
+Creator-supplied Mux full-interface stills for Rooms 1, 2, 3 and the Room 5 transitions are listed in section 10 below.
 
 These public links are visual evidence only. They do not prove that the same assets are downloaded and used by the live scene renderer.
 

@@ -85,3 +85,17 @@ These public links are visual evidence only. They do not prove that the same ass
 ## 9. ChatGPT-session capture limitation
 
 The current ChatGPT tool session does not expose REA, Chrome DevTools MCP or Playwright MCP calls. No live site network resource inventory, JavaScript bundle listing, font URL capture, WebGL context inventory or performance record was obtained. The page text and public linked images were inspected through public web reading only.
+
+
+## 10. Creator-supplied Mux preview frame references
+
+These Mux-hosted preview stills expose the full desktop UI at four sampled states:
+
+| Sample | Public URL | What it shows |
+|---|---|---|
+| Room 1 | https://image.mux.com/8KSTLeLnO02IssjCHWC016XtRix2502snXLVRj01YS00mqJw/thumbnail.webp?time=4.875 | Moss environment, inset scene panel, ROOM 1 / INTERACTION labels, title/tagline, bottom journey controls and utility icons |
+| Room 2 | https://image.mux.com/wEsjbPtkWzFYsEHKTaEMZMY3pp4KDe1neH2rua7H138/thumbnail.webp?time=9.875 | Sand spiral, pink sphere, inset panel and three hotspots |
+| Room 3 | https://image.mux.com/nLNX4gM6LQCO025X1vpwH3EPUPppjawZ3ZYXirxFTqow/thumbnail.webp?time=7.083 | Dark rock scene, glowing fish-like forms, inset panel and three hotspots |
+| Room 5 / transitions | https://image.mux.com/Uy00unzOctufG3c6ZCQpwZpzbm7xFjrhIWMfnuV8rkwc/thumbnail.webp?time=29.875 | Outer architectural environment, inner circular platform scene and five visible content labels |
+
+The sampled timestamps are points in the public preview media. They are not evidence of interaction timing or actual live-site runtime behavior.

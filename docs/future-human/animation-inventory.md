@@ -88,3 +88,13 @@ The official Framer Gallery claims custom high-quality 3D animations. The images
 ## 8. Instrumentation blocker
 
 No REA, Chrome DevTools MCP or Playwright MCP tools are callable from this ChatGPT session. Therefore idle loops, pointer response, transition durations, easing, camera motion and performance have not been measured. The next run must start in a session with all three tools connected and an inspectable Chrome target.
+
+
+## 8. Full-interface still evidence
+
+- Room 1: https://image.mux.com/8KSTLeLnO02IssjCHWC016XtRix2502snXLVRj01YS00mqJw/thumbnail.webp?time=4.875
+- Room 2: https://image.mux.com/wEsjbPtkWzFYsEHKTaEMZMY3pp4KDe1neH2rua7H138/thumbnail.webp?time=9.875
+- Room 3: https://image.mux.com/nLNX4gM6LQCO025X1vpwH3EPUPppjawZ3ZYXirxFTqow/thumbnail.webp?time=7.083
+- Room 5 transition: https://image.mux.com/Uy00unzOctufG3c6ZCQpwZpzbm7xFjrhIWMfnuV8rkwc/thumbnail.webp?time=29.875
+
+These frames establish the layout and visible hotspot positions at their sampled timestamps. They do not establish object movement, camera paths, loop timing or any control response. No live performance metrics were captured.

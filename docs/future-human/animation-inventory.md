@@ -1,6 +1,6 @@
 # FUTURE HUMAN — animation inventory
 
-**Status:** Five room scene-reference images and one Room 1 UI-preview still inspected. Creator description confirms custom 3D animation, but no live animation sequence or timing has been measured.
+**Status:** Five room scene-reference images and four creator-supplied full-interface preview stills (Rooms 1, 2, 3 and Room 5 transitions) inspected. Creator description confirms custom 3D animation, but no live animation sequence or timing has been measured.
 
 The official Framer Gallery describes the project as featuring custom high-quality 3D animations and tactile textures. That confirms an animation-rich design intent, but not the runtime rendering technology or exact animation behavior.
 
